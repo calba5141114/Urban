@@ -14,18 +14,19 @@ function getUrbanWord(urbanWord) {
     var printThis = "";
 
     for (var i = 0; i < list.length; i++) {
-      console.log(`
-         ${list[i].definition}
-         ${list[i].permalink}
-         ${list[i].thumbs_up}
-         ${list[i].author}
-         ${list[i].word}
-         ${list[i].defid}
-         ${list[i].current_vote}
-         ${list[i].written_on}
-         ${list[i].example}
-         ${list[i].thumbs_down}
-   `);
+      
+  //     console.log(`
+  //        ${list[i].definition}
+  //        ${list[i].permalink}
+  //        ${list[i].thumbs_up}
+  //        ${list[i].author}
+  //        ${list[i].word}
+  //        ${list[i].defid}
+  //        ${list[i].current_vote}
+  //        ${list[i].written_on}
+  //        ${list[i].example}
+  //        ${list[i].thumbs_down}
+  //  `);
 
       var card = `
       <br>
