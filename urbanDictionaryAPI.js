@@ -41,7 +41,8 @@ const renderJSON = (json) => {
       <div class="card-body">
       <h5 class="card-title text-danger">Sorry that does not exist</h5>
       <p class="card-text"> Sorry the word you are looking for does not exist try another word.</p>
-      <br>
+	<a href="https://www.urbandictionary.com/add.php" target="__blank">You can make a new word here</a>
+ <br>
       </div>
       </div>
       `
